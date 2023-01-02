@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background: #FFD900;
+}
+
+header img {
+    width: 150px;
+    margin-top: 27px;
+    margin-left: 58px;
+    margin-bottom: 28px;
+}
+
+#mid {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+
+}
+
+#left {
+    text-align: center;
+    background: #514988;
+    width: 600px;
+}
+
+#tittle {
+    color: #F3C61F;
+    padding-top: 31px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+}
+
+#date {
+    color: #FFFFFF;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+#content {
+    color: #FFFFFF;
+    padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-right: 60px;
+    padding-left: 64px;
+    padding-bottom: 50px;
+}
+
+#right {
+    width: 750px;
+}
+
+#countdown {
+    display: grid;
+    grid-auto-flow: column;
+    width: 700px;
+    font-size: 30px;
+    padding-top: 31px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #514988;
+    margin-left: 20px;
+}
+
+#aviso {
+    text-align: left;
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: bold;
+    color: #E33881;
+    margin-left: 20px;
+}
+
+#video {
+    width: 732px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+#ingressos {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#comprar {
+    width: 450px;
+}
+
+#ingressosImg img {
+    width: 165px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#ingressos p {
+    color: #F3C61F;
+    font-family: 'Verdana';
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#comprar button {
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 40px;
+    background: #514988;
+    border-radius: 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Verdana';
+    font-weight: bold;
+    border: 1px;
+    cursor: pointer;
+}
